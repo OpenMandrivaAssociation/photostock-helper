@@ -1,0 +1,12 @@
+diff -urN photostock-helper-0.0.1/photostock-helper.pl photostock-helper-0.0.1-patched/photostock-helper.pl
+--- photostock-helper-0.0.1/photostock-helper.pl	2011-12-12 23:18:26.000000000 +1100
++++ photostock-helper-0.0.1-patched/photostock-helper.pl	2013-06-25 21:12:44.000000000 +1100
+@@ -942,7 +942,7 @@
+ sub main {
+ 	
+ 	$builder = Gtk2::Builder->new();
+-	$builder->add_from_file(catfile($Bin, 'photostock-helper.glade'));
++	$builder->add_from_file(catfile($Bin, '../share/photostock-helper/photostock-helper.glade'));
+ 	$builder->connect_signals(undef);
+ 	$wndMain = $builder->get_object('wndMain');
+ 	
