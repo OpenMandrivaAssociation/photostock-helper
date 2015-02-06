@@ -1,7 +1,7 @@
 Summary:	GTK2 tool to define photostock IPTC tags and upload images to many photostocks
 Name:		photostock-helper
 Version:	0.0.1
-Release:	1
+Release:	2
 License:	GPLv3
 Group:		Graphics
 Url:		https://launchpad.net/photostock-helper
